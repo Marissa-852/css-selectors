@@ -2,3 +2,29 @@ body {
     background-color: #f2f2f2;
     padding: 0 2em;
 }
+
+h1, h2, h3 {
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+p {
+margin: .5em 0;
+}
+
+ h1 + p {
+    color: purple;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h3 + p {
+    color: purple;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+Use an adjacent selector to get the p tags immediately beside the h1 and h3tags
+add color: purple;
+add font-family: sans-serif;
+add font-weight: bold;
