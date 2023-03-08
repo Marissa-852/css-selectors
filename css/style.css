@@ -18,17 +18,28 @@ margin: .5em 0;
     font-weight: bold;
 }
 
+div > header {
+    margin: 1em 0;
+}
 
+section > h2 {
+text-transform: uppercase;
+border-bottom: 2px solid #000;
+}
 
-Use descendant selector to select the div inside header
-add margin: 1em 0;
-Select all h2 tags
-add text-transform: uppercase;
-add border-bottom: 2px solid #000;
-Use the child selector to target the p tag immediately inside the header
-add font-size: 1.25rem;
-Select the class profile-pic
-add width: 150px;
-add border-radius: 50%;
-Select the link with rel="external" attribute
-add color: purple;
+header > p {
+    font-size: 1.25rem;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+}
+
+a[rel="external"] {
+    color: purple;
+}
+
+#experience section:first-of-type {
+border-bottom: 2px dashed #ccc;
+}
