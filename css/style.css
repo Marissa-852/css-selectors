@@ -12,19 +12,23 @@ p {
 margin: .5em 0;
 }
 
- h1 + p {
+ h1 + p, h3 + p {
     color: purple;
     font-family: sans-serif;
     font-weight: bold;
 }
 
-h3 + p {
-    color: purple;
-    font-family: sans-serif;
-    font-weight: bold;
-}
 
-Use an adjacent selector to get the p tags immediately beside the h1 and h3tags
+
+Use descendant selector to select the div inside header
+add margin: 1em 0;
+Select all h2 tags
+add text-transform: uppercase;
+add border-bottom: 2px solid #000;
+Use the child selector to target the p tag immediately inside the header
+add font-size: 1.25rem;
+Select the class profile-pic
+add width: 150px;
+add border-radius: 50%;
+Select the link with rel="external" attribute
 add color: purple;
-add font-family: sans-serif;
-add font-weight: bold;
